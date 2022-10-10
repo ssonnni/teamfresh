@@ -3,7 +3,11 @@
 const Header = () => {
     return (
         <>
-        <h1>헤더</h1>
+        <header id="header">
+            <div>
+                
+            </div>
+        </header>
         </>
     );
 };
