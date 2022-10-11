@@ -11,16 +11,17 @@ body{
     background-color:gray;
     min-width:1210px;
     max-width: 2000px;
-    margin: 0px auto;
+    padding: 0;
+    margin: 0;
     font-family: 'Pretendard';
+    font-size:14px;
     color:#fff;
 }
-div {
-    display:block;
-}
+
 a{
   text-decoration: none;
+  color: inherit;
 }
-`;
+`;  
 
 export default GlobalStyle;
