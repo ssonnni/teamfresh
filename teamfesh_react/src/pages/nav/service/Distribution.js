@@ -1,7 +1,7 @@
 const Distribution = () => {
     return (
         <>
-        <h1>물류</h1>
+        <h1>유통</h1>
         </>
     );
 };
