@@ -8,7 +8,7 @@ ${reset}
     box-sizing: border-box;
 }
 body{
-    background-color:navy;
+    background-color:gray;
     min-width:1210px;
     max-width: 2000px;
     margin: 0px auto;

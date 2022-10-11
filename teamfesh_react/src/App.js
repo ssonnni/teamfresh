@@ -25,7 +25,7 @@ function App() {
       {/* index */}
       <Route path="/" element={<Index/>} />
       {/* nav */}
-      <Route path="/bueiness" element={<Business/>} />
+      <Route path="/business" element={<Business/>} />
       <Route path="/service/*" element={<Service/>} />
       <Route path="/recruit" element={<Recruit/>} />
       <Route path="/customer/*" element={<Customer/>} />

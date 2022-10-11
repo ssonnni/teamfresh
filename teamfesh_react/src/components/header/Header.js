@@ -5,11 +5,7 @@ import Nav from './Nav';
 const HeaderBox = styled.div`
 backdrop-filter: blur(2px);
 position: fixed;
-display: table;
-top: 0px;
-left: 0px;
 width: 100%;
-padding: 0px;
 text-align: center;
 z-index: 150;
 transition: all 0.2s ease 0s;
