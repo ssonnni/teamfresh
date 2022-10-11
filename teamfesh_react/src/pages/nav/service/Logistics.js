@@ -1,4 +1,4 @@
-const Service = () => {
+const Logistics = () => {
     return (
         <>
         <h1>물류</h1>
@@ -6,4 +6,4 @@ const Service = () => {
     );
 };
 
-export default Service;
+export default Logistics;

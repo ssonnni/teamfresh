@@ -1,4 +1,4 @@
-const Customer = () => {
+const Notice = () => {
     return (
         <>
         <h1>공지사항</h1>
@@ -6,4 +6,4 @@ const Customer = () => {
     );
 };
 
-export default Customer;
+export default Notice;
