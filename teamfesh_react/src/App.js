@@ -1,5 +1,6 @@
 import {Routes, Route } from "react-router-dom";
 
+
 /* ----------------------- head --------------------- */
 import Meta from "./components/Meta";
 import GlobalStyle from "./assets/styles/GlobalStyles";
