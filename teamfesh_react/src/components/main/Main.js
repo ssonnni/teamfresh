@@ -1,4 +1,5 @@
-import MainImg from './MainImg';
+
+import MainCarousel from './MainCarousel';
 import MainIntroduce from './MainIntroduce';
 import MainBusiness from './MainBusiness';
 import MainService from './MainService';
@@ -12,8 +13,7 @@ import MainLink from './MainLink';
 const Main = () => {
     return (
         <>
-        <h1>Main</h1>
-        <MainImg/>
+        <MainCarousel/>
         <MainIntroduce/>
         <MainBusiness/>
         <MainService/>

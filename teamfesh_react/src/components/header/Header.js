@@ -30,9 +30,11 @@ const Header = () => {
         <>
         <HeaderBox>
         <header id="header">
-            <Link to="/" className="logo">
+            <h1 className="logo">
+            <Link to="/">
                 <img src={require("../../assets/img/logo_w.png" )}alt="TeamFresh logo"/>
             </Link>
+            </h1>
             <Nav/>
         </header>
         </HeaderBox>
