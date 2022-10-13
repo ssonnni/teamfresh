@@ -21,8 +21,8 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Pretendard';
-    font-size:14px;
-    color:#fff;
+    font-size:20px;
+    color:#000;
     list-style:none;
 }
 

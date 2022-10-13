@@ -18,20 +18,20 @@ const CenterDiv = styled.div`
   padding: 0 30px;
   box-sizing: border-box;
 
-  .link_contents {
+  .link-contents {
  
     &:hover {
-      .link_text .link_title:before,
-      .link_text .more_btn,
-      .link_img {
+      .link-text .link-title:before,
+      .link-text .more-btn,
+      .link-img {
         opacity: 1;
       }
 
-      .link_text .link_title:before {
+      .link-text .link-title:before {
         top: 65px;
       }
 
-      .link_text .more_btn {
+      .link-text .more-btn {
         margin: 240px auto 0;
       }
     }
@@ -45,7 +45,7 @@ const CenterDiv = styled.div`
     overflow: hidden;
     cursor: pointer;
 
-    .link_text {
+    .link-text {
       position: absolute;
       top: 15%;
       left: 20%;
@@ -53,7 +53,7 @@ const CenterDiv = styled.div`
       text-align: center;
       border: 1px solid rgb(0 0 0 / 0%);
       z-index: 1;
-      .link_title {
+      .link-title {
         position: relative;
         width: 100%;
         font-family: "Pretendard";
@@ -74,7 +74,7 @@ const CenterDiv = styled.div`
           -webkit-transition: all 0.3s ease;
         }
       }
-      .more_btn {
+      .more-btn {
         transition: all 0.3s ease 0s;
         box-sizing: border-box;
         width: 40px;
@@ -92,13 +92,13 @@ const CenterDiv = styled.div`
       }
     }
 
-    .link_img {
+    .link-img {
       width: 100%;
       height: 100%;
       opacity: 0.4;
     }
   }
-    .link_img {
+    .link-img {
       background: no-repeat center;
       background-size: cover;
     }
@@ -121,40 +121,40 @@ const MainLink = () => {
       <Container>
         <CenterDiv className='centerdiv relattive'>
           {/* --링크01-- */}
-          <div className='link_contents link01'>
-            <div className='link_text'>
-              <div className='link_title'>News</div>
-              <MoreBtn className='more_btn'>
+          <div className='link-contents link01'>
+            <div className='link-text'>
+              <div className='link-title'>News</div>
+              <MoreBtn className='more-btn'>
                 <img src={ArrowIcon2} alt='' />
               </MoreBtn>
             </div>
-            <div className='link_img'>
+            <div className='link-img'>
               <img src={LinkImg1} alt='' />
             </div>
           </div>
 
           {/* --링크02-- */}
-          <div className='link_contents link02'>
-            <div className='link_text'>
-              <div className='link_title'>Recruit</div>
-              <MoreBtn className='more_btn'>
+          <div className='link-contents link02'>
+            <div className='link-text'>
+              <div className='link-title'>Recruit</div>
+              <MoreBtn className='more-btn'>
                 <img src={ArrowIcon2} alt='' />
               </MoreBtn>
             </div>
-            <div className='link_img'>
+            <div className='link-img'>
               <img src={LinkImg2} alt='' />
             </div>
           </div>
 
           {/* --링크03-- */}
-          <div className='link_contents link03'>
-            <div className='link_text'>
-              <div className='link_title'>Timf Story</div>
-              <MoreBtn className='more_btn'>
+          <div className='link-contents link03'>
+            <div className='link-text'>
+              <div className='link-title'>Timf Story</div>
+              <MoreBtn className='more-btn'>
                 <img src={ArrowIcon2} alt='' />
               </MoreBtn>
             </div>
-            <div className='link_img'>
+            <div className='link-img'>
               <img src={LinkImg3} alt='' />
             </div>
           </div>
