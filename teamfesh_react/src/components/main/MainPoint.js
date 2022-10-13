@@ -2,32 +2,42 @@ import styled from 'styled-components';
 import Title from '../../assets/styles/Title';
 import { useState } from 'react';
 
+const PointImg01 = require('../../assets/img/main_pointimg01.jpg');
+const PointImg02 = require('../../assets/img/main_pointimg02.jpg');
+const PointImg03 = require('../../assets/img/main_pointimg03.jpg');
+const PointImg04 = require('../../assets/img/main_pointimg04.jpg');
+
 const Container = styled.div`
   width: 100%;
   overflow: hidden;
   position: relative;
   width: 100%;
-  padding: 150px 0px;
+  padding:130px 0px 100px;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom, white 60%, #f0f0f1 40%);
+
 `;
 
 const Center = styled.div`
-  transition: all 0.4s ease 0s;
   box-sizing: border-box;
   width: 1210px;
   margin: 0px auto;
-  padding: 0px 30px;
+  padding: 40px 30px;
 
   .main-point-box {
     width: 100%;
-    margin: 50px 0 0 0;
+    margin:100px 0 0 0;
 
     .point-contents {
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.4s ease;
+        box-sizing: border-box;
       position: relative;
       float: left;
       width: 14.7%;
       height: 500px;
       margin: 0 0.15%;
-      background: rgb(0 0 0);
+      background: #000;
       overflow: hidden;
 
       .point-text {
@@ -85,20 +95,8 @@ const Center = styled.div`
       }
     }
 
-    .point1 .point-img {
-      background: url(../../assets/img/main_pointimg01.jpg) no-repeat center;
-    }
-
-    .point2 .point-img {
-      background: url(../../assets/img/main_pointimg02.jpg) no-repeat center;
-    }
-
-    .point3 .point-img {
-      background: url(../../assets/img/main_pointimg03.jpg) no-repeat center;
-    }
-
-    .point4 .point-img {
-      background: url(../../assets/img/main_pointimg04.jpg) no-repeat center;
+    .point-img {
+      background: no-repeat center;
     }
   }
 `;
@@ -153,8 +151,8 @@ const MainPoint = () => {
             <div
               className={
                 point1
-                  ? 'point_contents point1 active'
-                  : 'point_contents point1'
+                  ? 'point-contents point1 active'
+                  : 'point-contents point1'
               }
               onMouseEnter={() => ToggleClass(0)}
             >
@@ -167,15 +165,17 @@ const MainPoint = () => {
                   </div>
                 </div>
               </div>
-              <div className='point-img'></div>
+              <div className='point-img'>
+                <img src={PointImg01} alt='TMS' />
+              </div>
             </div>
 
             {/* --point2-- */}
             <div
               className={
                 point2
-                  ? 'point_contents point2 active'
-                  : 'point_contents point2'
+                  ? 'point-contents point2 active'
+                  : 'point-contents point2'
               }
               onMouseEnter={() => ToggleClass(2)}
             >
@@ -187,15 +187,17 @@ const MainPoint = () => {
                   </div>
                 </div>
               </div>
-              <div className='point-img'></div>
+              <div className='point-img'>
+                <img src={PointImg02} alt='새벽배송' />
+              </div>
             </div>
 
             {/* --point3-- */}
             <div
               className={
                 point3
-                  ? 'point_contents point3 active'
-                  : 'point_contents point3'
+                  ? 'point-contents point3 active'
+                  : 'point-contents point3'
               }
               onMouseEnter={() => ToggleClass(3)}
             >
@@ -207,15 +209,17 @@ const MainPoint = () => {
                   </div>
                 </div>
               </div>
-              <div className='point-img'></div>
+              <div className='point-img'>
+                <img src={PointImg03} alt='24시 관제' />
+              </div>
             </div>
 
             {/* --point4-- */}
             <div
               className={
                 point4
-                  ? 'point_contents point4 active'
-                  : 'point_contents point4'
+                  ? 'point-contents point4 active'
+                  : 'point-contents point4'
               }
               onMouseEnter={() => ToggleClass(4)}
             >
@@ -227,7 +231,9 @@ const MainPoint = () => {
                   </div>
                 </div>
               </div>
-              <div className='point-img'></div>
+              <div className='point-img'>
+                <img src={PointImg04} alt='라이선스 보유 차량망' />
+              </div>
             </div>
           </div>
         </Center>

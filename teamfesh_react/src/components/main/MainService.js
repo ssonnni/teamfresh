@@ -19,7 +19,8 @@ const Container = styled.div`
   overflow: hidden;
   position: relative;
   width: 100%;
-  padding: 150px 0px;
+  padding: 150px 0px 30px;
+  background-color: #fff;
 `;
 
 const TabBox = styled.div`
