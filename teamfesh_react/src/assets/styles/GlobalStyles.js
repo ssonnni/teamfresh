@@ -15,7 +15,7 @@ ${reset}
     box-sizing: border-box;
 }
 body{
-    background-color:gray;
+    background: rgb(247, 247, 247);
     min-width:1210px;
     max-width: 2000px;
     padding: 0;
