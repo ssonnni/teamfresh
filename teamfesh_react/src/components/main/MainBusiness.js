@@ -5,7 +5,9 @@
 const MainBusiness = () => {
     return (
         <>
-        <h1>MainBusiness</h1>
+        <div className="main-title">
+            
+        </div>
         </>
     );
 };

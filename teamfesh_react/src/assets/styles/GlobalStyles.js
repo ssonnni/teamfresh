@@ -23,6 +23,7 @@ body{
     font-family: 'Pretendard';
     font-size:14px;
     color:#fff;
+    list-style:none;
 }
 
 a{
