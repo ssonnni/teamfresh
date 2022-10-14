@@ -176,27 +176,17 @@ const Footer = () => {
             <div className='snslink'>
               <ul>
                 <li
-                  onClick={() =>
-                    window.open('https://www.facebook.com/teamfresh.timf/')
-                  }
+                 
                 >
 
                 </li>
                 <li
-                  onClick={() =>
-                    window.open(
-                      'https://brunch.co.kr/@f2784a16dd71437#articles'
-                    )
-                  }
+                  
                 >
                   <img src={Brunch} alt='' />
                 </li>
                 <li
-                  onClick={() =>
-                    window.open(
-                      'https://www.youtube.com/channel/UCe04X8Shi4hQnUPvhE2TYHA'
-                    )
-                  }
+                  
                 >
                   <i className='xi-youtube-play'></i>
                 </li>

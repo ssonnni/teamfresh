@@ -83,7 +83,9 @@ const MainText = styled.div`
     color: rgb(255 255 255);
   }
 `;
+
 const MainCarousel = () => {
+
   const length = 4;
   const [count, setCount] = useState(0);
   const [last, setLast] = useState(false);
